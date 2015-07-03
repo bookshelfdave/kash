@@ -1,0 +1,2 @@
+antlr:
+	antlr4 -o ./ -listener -no-visitor -package com.metadave.kash.parser ./src/main/java/com/metadave/kash/parser/Kash.g4
